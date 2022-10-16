@@ -15,12 +15,12 @@ h1,h2,h3,h4,h5,h6,p, a{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 700;
     line-height: 60px;
 }
 h2, h3{
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 39px;
 }
 h2{
@@ -32,15 +32,24 @@ h3{
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 a{
     color: inherit;
 
 }
+p{
+    font-size: 1.125rem;
+}
+@media (max-width:768px){
+    html {
+        font-size: 83%;
+    }
+}
+
 .btn{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 29px;
 

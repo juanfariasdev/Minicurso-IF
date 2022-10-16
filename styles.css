@@ -31,7 +31,7 @@
 @media (max-width: 1440px){
     .bannerHome{
         padding-top: 70px;
-        padding-bottom: 80px;
+        padding-bottom: 0px;
     }
 }
 @media (max-width: 1279px){
@@ -94,12 +94,19 @@
 @media (max-width: 1279px){
     .bannerHome .imageBanner img{
         position: inherit;
+        margin-bottom: -17%;
 
     }
 }
 
 .infoBlock{
     padding: 150px 0px;
+}
+
+@media (max-width: 768px){
+    .infoBlock {
+        padding: 70px 0px;
+    }
 }
 .infoBlock .container{
     align-items: center;
@@ -119,6 +126,8 @@
 @media (max-width: 768px){
     .benefits{
         flex-direction: column;
+        margin-top: 50px;
+        gap: 50px;
     }
     .benefits > div{
         display: flex;
