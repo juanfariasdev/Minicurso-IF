@@ -4,6 +4,7 @@
     --color-blue-500:#00B0F3;
 
     --color-yellow-500:#FFC800;
+    --color-yellow-900:#614D04;
 
     --color-gray-300:#F3F3FF;
     --color-gray-500:#868E96;
@@ -41,6 +42,8 @@
 }
 .bannerHome .content{
     max-width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
 }
 @media (max-width: 1279px){
     .bannerHome .content{
@@ -70,6 +73,7 @@
 }
 .bannerHome .btn{
     margin-top: 24px;
+    width: initial;
 }
 
 .bannerHome .imageBanner{
@@ -147,4 +151,8 @@
 .benefits .benefitsImage img{
     max-height: 92px;
     max-width: 92px;
+}
+
+.infoBlock .btn{
+    margin-top:50px;
 }
