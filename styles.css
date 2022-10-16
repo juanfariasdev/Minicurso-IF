@@ -94,7 +94,8 @@
 @media (max-width: 1279px){
     .bannerHome .imageBanner img{
         position: inherit;
-        margin-bottom: -17%;
+        margin-top: 30px;
+        margin-bottom: -20%;
 
     }
 }
