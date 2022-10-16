@@ -4,6 +4,11 @@
     --color-blue-500:#00B0F3;
 
     --color-yellow-500:#FFC800;
+
+    --color-gray-300:#F3F3FF;
+    --color-gray-500:#868E96;
+    --color-gray-700:#495057;
+    --color-gray-800:#3A4148;
 }
 
 
@@ -87,4 +92,59 @@
         position: inherit;
 
     }
+}
+
+.infoBlock{
+    padding: 150px 0px;
+}
+.infoBlock .container{
+    align-items: center;
+   flex-direction: column;
+   
+}
+
+.infoBlock h3{
+    color: var(--color-gray-800)
+}
+
+.benefits{
+    margin-top: 90px;
+    display: flex;
+    gap:75px;
+}
+@media (max-width: 768px){
+    .benefits{
+        flex-direction: column;
+    }
+    .benefits > div{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+}
+@media (min-width: 768px){
+.benefits h4{
+    margin-top: 40px;
+}
+}
+.benefits p{
+    margin-top: 12px;
+}
+.benefits .benefitsImage{
+    height: 92px;
+    width: 92px;
+    min-width: 15%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .benefits .benefitsImage{
+        background-color: var(--color-gray-300);
+    }
+}
+.benefits .benefitsImage img{
+    max-height: 92px;
+    max-width: 92px;
 }
