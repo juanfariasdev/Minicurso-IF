@@ -166,3 +166,31 @@
 .infoBlock .btn{
     margin-top:50px;
 }
+.footer{
+    padding: 70px 0px;
+    color: var(--color-white);
+    background-color: var(--color-blue-500);
+    background: radial-gradient(91.37% 8176.56% at 7.29% 50.25%, #00D6D8 0%, #00AFEB 100%)
+}
+
+.footer .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+.footer .downloads{
+    display: flex;
+    gap: 10px
+}
+.footer p{
+    color: var(--color-white);
+
+    transition: 0.2s all;
+}
+.footer p a:hover{
+    color: #00FF6E;
+}
+.footer .copywrite{
+    text-align: center;
+}
