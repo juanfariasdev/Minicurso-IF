@@ -78,3 +78,22 @@ p{
 
     padding: 10px;
 }
+
+
+.developer{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-weight: 300;
+    background-color: var(--color-black-800);
+    border-top: 2px solid var(--color-green-500);
+    color: var(--color-gray-300);
+}
+.developer p {
+    font-weight: 400;
+    font-size: 14px;
+}
+.developer a{
+    color:var(--color-green-500);
+
+}

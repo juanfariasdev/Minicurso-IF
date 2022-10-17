@@ -10,6 +10,10 @@
     --color-gray-500:#868E96;
     --color-gray-700:#495057;
     --color-gray-800:#3A4148;
+
+    --color-green-500:#00FF6E;
+
+    --color-black-800:#000000B3;
 }
 
 
@@ -167,7 +171,7 @@
     margin-top:50px;
 }
 .footer{
-    padding: 70px 0px;
+    padding: 50px 0px;
     color: var(--color-white);
     background-color: var(--color-blue-500);
     background: radial-gradient(91.37% 8176.56% at 7.29% 50.25%, #00D6D8 0%, #00AFEB 100%)
@@ -183,13 +187,19 @@
     display: flex;
     gap: 10px
 }
+.footer a{
+    width: 50%;
+}
+.footer a img{
+    max-width: 100%;
+}
 .footer p{
     color: var(--color-white);
 
     transition: 0.2s all;
 }
 .footer p a:hover{
-    color: #00FF6E;
+    color: var(--color-green-500);
 }
 .footer .copywrite{
     text-align: center;
